@@ -7,6 +7,15 @@ html[data-theme="dark"] body {
   color: #bfbfbf;
 }
 
+
+html[data-theme="dark"] .sidebar {
+  background-color: #222222;
+}
+
+html[data-theme="dark"] .sidebar .sidebar-title {
+  background-color: #444444;
+}
+
 html[data-theme="dark"] .wy-nav-content-wrap {
   background-color: #101010;
 }
