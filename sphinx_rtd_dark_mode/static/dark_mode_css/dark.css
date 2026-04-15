@@ -528,6 +528,22 @@ html[data-theme="dark"] .guilabel {
   border-color: #4d4d4d;
 }
 
+html[data-theme="dark"] .sig.sig-object {
+  border-left-color: #3e4446 !important;
+  background-color: #202325 !important
+}
+
+html[data-theme="dark"] .property,
+html[data-theme="dark"] .optional,
+html[data-theme="dark"] .sig-name,
+html[data-theme="dark"] .sig-param,
+html[data-theme="dark"] .sig-paren,
+html[data-theme="dark"] .sig-prename,
+html[data-theme="dark"] .sig-return-icon,
+html[data-theme="dark"] .sig-return-typehint {
+  color: #e8e6e3 !important
+}
+
 html.writer-html4 .rst-content dl:not(.docutils) .descclassname,
 html.writer-html4 .rst-content dl:not(.docutils) .descname,
 html.writer-html4 .rst-content dl:not(.docutils) .sig-name,
